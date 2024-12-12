@@ -1,67 +1,51 @@
+
 # Reverse Complement RNA Program
 
-This program provides a graphical user interface (GUI) for analyzing DNA sequences. It calculates the reverse, complement, reverse complement, RNA conversion, and reverse complement RNA of a given DNA sequence.
+## Description
+
+This program performs various DNA sequence manipulations, including generating the reverse, complement, reverse complement, and RNA sequence of a given DNA sequence.
 
 ## Features
 
-1. **Reverse**: Outputs the reverse of the entered DNA sequence.
-2. **Complement**: Calculates the complement of the DNA sequence.
-3. **Reverse Complement**: Computes the reverse complement of the DNA sequence.
-4. **RNA**: Converts the DNA sequence into RNA by replacing all thymine (`T`) nucleotides with uracil (`U`).
-5. **Reverse Complement RNA**: Computes the reverse complement and converts it to RNA.
+- Converts a DNA sequence into its reverse.
+- Converts a DNA sequence into its complement.
+- Generates reverse complement of a DNA sequence.
+- Converts a DNA sequence to RNA (with thymine replaced by uracil).
+- Generates reverse complement RNA.
+
+## Installation
+
+To run this program, ensure you have the required dependencies installed:
+
+- Python 3.x
+- `Tkinter` (for the graphical interface)
+
+You can install `Tkinter` using your package manager if it's not already available:
+
+```bash
+# For Ubuntu/Debian
+sudo apt-get install python3-tk
+```
+
+## Usage
+
+1. Insert a DNA sequence into the input field.
+2. Click the "Run" button to generate the following outputs:
+    - Reverse sequence
+    - Complement sequence
+    - Reverse complement sequence
+    - RNA sequence
+    - Reverse complement RNA sequence
+
 
 ## User Interface
 
-### Widgets:
-- **Input Sequence**: Text box for the user to input the DNA sequence.
-- **Reverse**: Displays the reverse of the input DNA sequence.
-- **Complement**: Displays the complement of the DNA sequence.
-- **Reverse Complement**: Displays the reverse complement of the DNA sequence.
-- **RNA**: Displays the RNA conversion of the DNA sequence.
-- **Reverse Complement RNA**: Displays the RNA conversion of the reverse complement.
-- **Run Button**: Executes the calculations based on the entered sequence.
+The program includes a Tkinter graphical interface with the following features:
 
-### Layout:
-The GUI is organized with labeled sections for each feature, providing results in distinct text boxes next to their respective labels.
+- **Input field** to enter a DNA sequence.
+- **Labels** to display the reverse, complement, reverse complement, RNA, and reverse complement RNA.
+- **Run button** to trigger the sequence manipulations.
 
-## How to Use
+## Author
 
-1. Run the program.
-2. Enter a valid DNA sequence into the `Insert sequence` text box.
-3. Click the **Run** button.
-4. View the calculated results in the corresponding text boxes:
-   - **Reverse**: Reverse sequence.
-   - **Complement**: Complement sequence.
-   - **Reverse Complement**: Reverse complement sequence.
-   - **RNA**: RNA equivalent of the sequence.
-   - **Reverse Complement RNA**: RNA equivalent of the reverse complement.
-
-## Requirements
-- Python 3.x
-- Libraries:
-  - `random`
-  - `math`
-  - `tkinter`
-  - `numpy`
-  - `warnings`
-
-## Example
-
-### Input:
-```
-ATGCGTAC
-```
-
-### Output:
-- **Reverse**: CATGCGTA
-- **Complement**: TACGCATG
-- **Reverse Complement**: CATGCGTA
-- **RNA**: AUGCGUAC
-- **Reverse Complement RNA**: CAUGCGUA
-
-## Notes
-- Ensure the input sequence is valid DNA (composed of A, T, C, G only).
-- The program replaces `T` with `U` for RNA conversions.
-
-
-
+- **Tomer Chen** - Created for personal use and research in biotechnology.
