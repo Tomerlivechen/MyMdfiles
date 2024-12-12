@@ -1,4 +1,4 @@
-# 3' UTR Maker
+# Mouse 3' UTR Maker
 
 ## Description
 The "3' UTR Maker" is a Python-based graphical user interface (GUI) application designed to help users generate 3' untranslated region (UTR) sequences for mouse miRNA. This tool allows for the creation of custom 3' UTR sequences by selecting miRNAs, adjusting UTR length, and specifying the number of miRNA copies. The generated UTR sequence avoids bad miRNA sequences and customizes based on user input.
