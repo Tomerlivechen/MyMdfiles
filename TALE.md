@@ -31,3 +31,8 @@ This is a graphical user interface (GUI) tool designed for constructing TALEN (T
 - **Sequence Breakdown**: Breaks the target sequence into parts for constructing the binding domain.
 - **TALEN Construction**: Assembles the TALEN protein sequence by combining the appropriate scaffolds and selected catalyst.
 
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+For additional questions, contact [TomerLiveChenWork.com](mailto:TomerLiveChenWork.com).
